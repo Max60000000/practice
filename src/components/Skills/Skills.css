@@ -1,0 +1,45 @@
+.main2 {
+    background-image: url("https://images.unsplash.com/photo-1649336320848-d350bb92d685?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    color: white;
+   
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e68a00;
+}
+
+.card2 {
+    transition: transform 0.2s;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.skill-bar {
+    position: relative;
+    height: 5px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.skill-bar div {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #ff9800;
+}

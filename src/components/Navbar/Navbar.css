@@ -1,0 +1,29 @@
+.navb {
+  width: 100%;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.nav-content {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links  {
+  cursor: pointer;
+  color: white;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links h2:hover {
+  color: #ddd;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
