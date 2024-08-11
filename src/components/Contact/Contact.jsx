@@ -32,15 +32,15 @@ const Contact = () => {
     return (
 
         <>
-            <form style={{ display: "flex", zIndex: "0.1" }} className='form1' onSubmit={handleSubmit}>
-                <div style={{ padding: "60px", textAlign: "center", flexDirection: "column", justifyContent: "center", width: "50%" }}>
+            <form style={{ display: "flex",zIndex:"0.1" }} className='form1' onSubmit={handleSubmit}>
+                <div style={{ padding: "60px", textAlign: "center", flexDirection: "column", justifyContent: "center", width: "50%",  }}>
                     <p style={{ fontSize: "40px" }}>Get in Touch</p>
                     <input type='text' style={{ marginRight: "12px" }} alt='' placeholder='Name' value={name} onChange={(e) => setName(e.target.value)} />
-
-                    <input type='email' style={{ padding: "20px", marginRight: "12px" }} value={email} placeholder='Email' onChange={(e) => setEmail(e.target.value)} alt='' />
-
+                    
+                    <input type='email' style={{ padding:"20px",marginRight: "12px" ,marginBottom:"30px"}} value={email} placeholder='Email' onChange={(e) => setEmail(e.target.value)} alt='' />
+                   
                     <textarea type='text' style={{ marginTop: "12px" }} value={message} placeholder='Message' onChange={(e) => setMessage(e.target.value)} alt='' />
-
+                    
                     <button type='submit' >Submit</button>
                 </div>
 
